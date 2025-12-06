@@ -15,3 +15,9 @@ The dataset is a series of recipes scraped from the BBC website. The cake labels
 - Fueled by lack of success using simple KNN, a variety of classic ML algorithms are used to train several classifiers. The one with the highest accuracy will subsequently be used to assess banana breads. 
 - was the best algorithm.
 - Still predicts the majority of banana breads as cakes (15 cakes and 7 breads). This is not the right answer.
+
+## Experiment 3 `simpleLLM.ipynb`
+- As there must be some experiment to show that banana bread is in fact bread, I have resorted to LLMs.
+- Compare vectors of 'cake' vs 'bread' vs 'banana bread'
+- Using cosine similarity, we are finally getting somewhere. 
+- 'Bread' is closer in vector space to 'banana bread' than 'cake' is to 'banana bread'. 
